@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  test:
+    image: cosmtrek/air
+    container_name: test
+    working_dir: /app
+    command:
+      - go install github.com/swaggo/swag/cmd/swag@latest
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app/
