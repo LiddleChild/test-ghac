@@ -1,0 +1,9 @@
+basePath: /
+host: localhost:3000
+info:
+  contact: {}
+  description: Bangkok Property Matchmaking Platform API docs
+  title: Bangkok Property Matchmaking Platform
+  version: "1.0"
+paths: {}
+swagger: "2.0"
